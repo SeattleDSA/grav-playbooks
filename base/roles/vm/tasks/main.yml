@@ -1,0 +1,19 @@
+---
+
+- name: ensure dopy installed locally
+  pip:
+    name: dopy
+    state: latest
+
+- name: confirm do droplet running
+  digital_ocean:
+    state: present
+    command: droplet
+    id: 420
+    name: dsagrav
+    api_token: "{{ digital_ocean_api_token }}"
+    size_id: 2gb
+    region_id: sfo1
+    image_id: ubuntu-16-10-x64
+    wait_timeout: 500
+

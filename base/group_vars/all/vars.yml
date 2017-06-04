@@ -1,0 +1,3 @@
+---
+digital_ocean_api_token: "{{ vault_digital_ocean_api_token }}"
+

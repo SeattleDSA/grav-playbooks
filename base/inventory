@@ -1,0 +1,6 @@
+localhost ansible_python_interpreter=python
+gravdsa 192.241.201.107
+
+[web]
+gravdsa
+
