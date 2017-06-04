@@ -1,6 +1,5 @@
 localhost
-gravdsa=192.241.201.107
 
-[web]
-gravdsa
+[grav]
+gravdsa=192.241.201.107
 

@@ -4,6 +4,6 @@
 #   roles:
 #   - vm
 
-- hosts: dsagrav
+- hosts: grav
   roles:
   - web
