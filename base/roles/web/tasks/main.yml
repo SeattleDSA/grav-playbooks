@@ -3,5 +3,5 @@
 - name: install nginx and supporting software
   apt: pkg="{{ item }}" state=latest
   with_items:
-    - nginx
-    - php5
+    - nginx-full
+    - php
