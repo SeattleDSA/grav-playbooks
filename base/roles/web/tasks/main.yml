@@ -5,3 +5,4 @@
   with_items:
     - nginx-full
     - php
+    - php-fpm
