@@ -1,4 +1,4 @@
 localhost
 
 [grav]
-138.68.21.194 ansible_user=root
+138.68.21.194 ansible_user=root domain=seattldsa.org
