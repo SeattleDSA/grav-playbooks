@@ -1,5 +1,5 @@
 localhost
 
 [grav]
-192.241.201.107
+192.241.201.107 ansible_user=root
 
