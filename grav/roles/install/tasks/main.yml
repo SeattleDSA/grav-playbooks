@@ -1,0 +1,7 @@
+- template:
+    src: ../templates/grav-site
+    # TODO how do we make this template destination dynamic?
+    dest: /etc/nginx/sites-available/grav-site-{{ domain }}
+    owner: www-data
+    group: www-data
+    mode: 0644
